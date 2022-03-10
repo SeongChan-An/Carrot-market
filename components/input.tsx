@@ -1,8 +1,8 @@
 interface InputProps {
   label: string;
   name: string;
-  kind?: "text" | "phone" | "price";
-  [key: string]: any;
+  kind?: "text" | "phone" | "price";  // 옵션
+  [key: string]: any; // 원하는 prop을 전달하고 싶을 때 사용
 }
 
 export default function Input({
